@@ -1,10 +1,21 @@
+--- Packages
 vim.pack.add{
 	{ src = 'https://github.com/neovim/nvim-lspconfig' },
-	{ src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
+	{ src = "https://github.com/catppuccin/nvim", name = "catppuccin" }
 }
-vim.cmd.colorscheme "catppuccin-mocha"
 
--- LSP
+--- Options
+vim.opt.number = true
+--vim.opt.relativenumber = true
+vim.opt.smartindent = true
+vim.opt.undofile = true
+vim.opt.swapfile = false
+vim.opt.autocomplete = true
+
+--- Colorscheme
+vim.cmd.colorscheme "catppuccin-nvim"
+
+--- LSP
 vim.lsp.config("marksman", {
   cmd = { "marksman", "server" },
   filetypes = { "markdown", "md" },
