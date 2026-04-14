@@ -20,4 +20,8 @@ Icons are managed with Starship. To display them correctly, install a [Nerdfont]
 | starship | Shell prompt| ~/.config/starship.toml | https://starship.rs/guide/ |
 | neovim | Editor | ~/.config/nvim/* | https://neovim.io/doc/install/ |
 
+## Usage
 
+- Clone repository
+- Symlink configfiles to the corresponding location as seen in the table above
+- Update config via repo files and not in the local config folder
