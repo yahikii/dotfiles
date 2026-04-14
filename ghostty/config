@@ -1,7 +1,9 @@
-# Theme
-#theme = iceberg-dark
+## Theme
+theme = iceberg-dark
 #theme = rose-pine
-background-opacity = 0.85
+
+## Visualization settings
+background-opacity = 0.95
 background = #150d29
 selection-background = #322669
 selection-invert-fg-bg = false
@@ -11,7 +13,8 @@ shell-integration-features = no-cursor
 background-blur-radius = 15
 title=""
 
-# Disable ligatures
+## Misc
+### Disable ligatures
 font-feature = -calt
 font-feature = -liga
 font-feature = -dlig
